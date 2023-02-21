@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-jirq
     spec:
       containers:
-      - image: quay.io/rh_ee_tnevrlka/test-images:78c759f178904d1eb2113fe885540c6f
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:3166f4aab522fcff65fe1233a5188228dfb1c6474a78534ee7ecf0dfeb27aa80
         imagePullPolicy: Always
         livenessProbe:
           httpGet:

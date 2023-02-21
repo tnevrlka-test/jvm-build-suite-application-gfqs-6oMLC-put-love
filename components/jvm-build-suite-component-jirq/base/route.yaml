@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: jvm-build-suite-component-jirq
     app.kubernetes.io/part-of: jvm-build-suite-application-gfqs
-  name: jvm-build-suite-componentlqvr
+  name: jvm-build-suite-componentmgkv
   namespace: jvm-build-tidn-tenant
 spec:
   port:
