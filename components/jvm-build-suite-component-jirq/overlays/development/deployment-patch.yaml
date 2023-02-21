@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-jirq
+  namespace: jvm-build-tidn-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rh_ee_tnevrlka/test-images@sha256:3166f4aab522fcff65fe1233a5188228dfb1c6474a78534ee7ecf0dfeb27aa80
+        name: container-image
+        resources: {}
+status: {}
